@@ -30,19 +30,26 @@ To install it try `curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/b
 To install a new theme you need choose one: the alias `omf`, if you want the theme list put `omf list` and to install one of this try `omf install agnoster` 
 Agnoster is the theme name and it's the next tip we're going to see:
 
-![Theme agnoster](assets/fish_agnoster_theme.png)
-
 If you have any problem with the fonts or you theme isn't see correctly, try to install the fonts;
 `sudo apt-get install python-pip`
+
 `sudo pip install -U pip`
+
 `sudo su`
+
 `su -c 'pip install git+git://github.com/Lokaltog/powerline'`
+
 `wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf`
+
 `sudo mv PowerlineSymbols.otf /usr/share/fonts/`
+
 `sudo fc-cache -vf`
+
 `sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/`
+
 `exit` 
 
 if everything went well you should see something like that:
+![Theme agnoster](assets/fish_agnoster_theme.png)
 
 
