@@ -27,8 +27,7 @@ To install a new theme you need choose one: the alias `omf`, if you want the the
 Agnoster is the theme name and it's the next tip we're going to see:
 
 If you have any problem with the fonts or you theme isn't see correctly, try to install the fonts;
-
-´
+`
 $ sudo apt-get install python-pip
 $ sudo pip install -U pip
 $ sudo su
@@ -38,7 +37,7 @@ $ sudo mv PowerlineSymbols.otf /usr/share/fonts/
 $ sudo fc-cache -vf
 $ sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d/
 $ exit
-´
+`
 
 if everything went well you should see something like that:
 
